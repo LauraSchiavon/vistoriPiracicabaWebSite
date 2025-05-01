@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff0005;
+  --primary-dark: #d60004;
+  --primary-light: #ff3337;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-900 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white transition duration-300 ease-in-out rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-[#ff0005] hover:bg-[#d60004] focus:ring-[#ff0005];
+  }
+  
+  .btn-secondary {
+    @apply text-white bg-black hover:bg-gray-800 focus:ring-black;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl;
+  }
+  
+  .section-subtitle {
+    @apply mt-4 text-lg text-gray-600 sm:text-xl max-w-3xl;
+  }
+  
+  .card {
+    @apply overflow-hidden bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
