@@ -4,6 +4,8 @@ import { CheckCircle, Award, Clock, Users } from "lucide-react";
 const About: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
+  const whatsappLink =
+    "https://wa.me/5519974086574?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento!";
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -96,7 +98,7 @@ const About: React.FC = () => {
             </div>
 
             <div className="mt-8">
-              <a href="#contato" className="btn btn-primary">
+              <a href={whatsappLink} className="btn btn-primary">
                 Entre em Contato
               </a>
             </div>
