@@ -1,14 +1,17 @@
-import React from 'react';
-import { Car } from 'lucide-react';
+import React from "react";
 
 const Logo: React.FC = () => {
   return (
-    <a href="#inicio" className="flex items-center">
-      <Car size={28} className="text-primary mr-2" />
-      <div>
-        <span className="font-bold text-xl leading-none">Vistori</span>
-        <span className="block text-xs text-primary font-medium leading-none">Piracicaba</span>
-      </div>
+    <a
+      href="#inicio"
+      className="flex items-center"
+      aria-label="Logo Vistori Piracicaba"
+    >
+      <img
+        src="/image/logo.jpeg"
+        alt="Logo Vistori Piracicaba"
+        className="w-28 h-20 mr-2"
+      />
     </a>
   );
 };
