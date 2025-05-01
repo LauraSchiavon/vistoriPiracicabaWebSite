@@ -4,7 +4,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 const Hero: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const whatsappLink =
-    "https://wa.me/5519934111111?text=Olá! Gostaria de informações sobre vistoria veicular.";
+    "https://wa.me/5519974086574?text=Olá! Gostaria de informações sobre vistoria veicular.";
 
   useEffect(() => {
     setIsVisible(true);
