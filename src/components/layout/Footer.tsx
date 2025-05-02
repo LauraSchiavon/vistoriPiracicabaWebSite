@@ -76,13 +76,21 @@ const Footer: React.FC = () => {
                 <a href="#servicos">Vistoria Cautelar</a>
               </li>
               <li>
-                <a href="#servicos">Vistoria de Sinistro</a>
+                <a href="#servicos">Pesquisa Simples</a>
               </li>
               <li>
-                <a href="#servicos">Vistoria para Seguro</a>
+                <a href="#servicos">Pesquisa Completa</a>
               </li>
               <li>
-                <a href="#servicos">Emissão de Laudos</a>
+                <a href="#servicos">Revistoria - Infração de Trânsito</a>
+              </li>
+              <li>
+                <a href="#servicos">Revitalização de Chassi</a>
+              </li>
+              <li>
+                <a href="#servicos">
+                  Vistorias Completas para Todos os Tipos de Veículos
+                </a>
               </li>
             </ul>
           </div>
