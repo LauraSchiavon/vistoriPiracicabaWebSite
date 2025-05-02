@@ -158,7 +158,7 @@ const About: React.FC = () => {
           <div className="flex flex-col items-center space-y-2 border-r md:border-r-2 border-gray-200 last:border-none">
             <Clock className="text-primary" size={48} />
             <p className="text-4xl font-extrabold text-gray-800 drop-shadow">
-              5 anos
+              15 anos
             </p>
             <p className="text-sm text-gray-500 font-medium uppercase tracking-wide">
               de Atuação

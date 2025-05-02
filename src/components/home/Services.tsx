@@ -93,12 +93,15 @@ const Services: React.FC = () => {
             transferência do seu veículo.
           </p>
         </div>
-
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}
         </div>
+        <p className="mt-6 text-gray-700 font-semibold bg-yellow-100 p-4 rounded-md border-l-4 border-yellow-500">
+          Para veículos acima de <strong>10 toneladas</strong>, realizamos o
+          serviço no local — em qualquer cidade ou estado.
+        </p>
 
         <div className="mt-12 text-center">
           <a
