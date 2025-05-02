@@ -32,13 +32,13 @@ const Contact: React.FC = () => {
           {/* E-mail */}
           <a
             href="mailto:vistorivistoriapiracicaba@gmail.com"
-            className="flex-1 min-w-[230px] bg-black border border-gray-800 rounded-xl py-6 pl-6 pr-12 hover:border-white transition-colors block"
+            className="flex-1 min-w-[230px] bg-black border border-gray-800 rounded-xl p-6 hover:border-white transition-colors block"
           >
             <div className="flex items-center space-x-4 mb-3">
               <Mail size={28} className="text-white" />
               <h3 className="text-xl font-semibold">E-mail</h3>
             </div>
-            <p>vistorivistoriapiracicaba@gmail.com</p>
+            <p>piracicaba@vistori.com.br</p>
           </a>
 
           {/* Endereço */}
